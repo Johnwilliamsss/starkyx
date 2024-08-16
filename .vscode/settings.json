@@ -2,13 +2,13 @@
   "editor.inlineSuggest.enabled": true,
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": true
   },
   "editor.rulers": [
     100
   ],
   "rust-analyzer.linkedProjects": [
-    "./starkyx/Cargo.toml",
+    "./starkyx/Cargo.toml"
   ],
   "rust-analyzer.check.overrideCommand": [
     "cargo",
@@ -23,12 +23,12 @@
   ],
   "rust-analyzer.runnables.extraEnv": {
     "RUST_LOG": "debug",
-    "RUSTFLAGS": "-Ctarget-cpu=native"
+    "RUSTFLAGS": "-C target-cpu=native"
   },
   "rust-analyzer.runnables.extraArgs": [
     "--release"
   ],
   "rust-analyzer.diagnostics.disabled": [
     "unresolved-proc-macro"
-  ],
+  ]
 }
